@@ -1,0 +1,17 @@
+<ion-menu [content]="menuContent" id="side-menu" side="left" class="center">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title id="title-menu">Template Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list no-lines>
+            <button ion-item (click)="openPage(p)" *ngFor="let p of pages" menuToggle detail-none id="btn-menu" class="center">
+                <ion-icon name="{{p.icon}}"></ion-icon>
+                {{p.title}}
+            </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-nav #menuContent id="nav" [root]="rootPage"></ion-nav>

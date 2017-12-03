@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Barcode Scanner
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button block large (click)="scan()">SCAN BARCODE</button>
+  <p>{{barcode}}</p>
+</ion-content>
