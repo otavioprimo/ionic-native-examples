@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Device Information</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <button ion-button block (click)="refresh()">refresh</button>
+  <br>
+  <p *ngIf="uuid">Uuid: {{uuid}}</p>
+  <p *ngIf="cordova">Cordova Version: {{cordova}}</p>
+  <p *ngIf="model">Device Model: {{model}}</p>
+  <p *ngIf="platform">Platform: {{platform}}</p>
+  <p *ngIf="version">OS Version: {{version}}</p>
+  <p *ngIf="manufacturer">Manufacturer: {{manufacturer}}</p>
+  <p *ngIf="serial">Hardware serial number: {{serial}}</p>
+  <p *ngIf="isVirtual">Is a virtual device? {{isVirtual}}</p>
+</ion-content>

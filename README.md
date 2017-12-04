@@ -9,3 +9,9 @@ ionic platform add android
 ionic cordova run android --prod
 
 Enjoy ;)
+
+-Device Information
+-FingerPrint Auth
+-Geolocation
+-MediaStreaming
+-Barcode Scanner
