@@ -1,6 +1,9 @@
 <ion-header>
 
   <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
     <ion-title>FingerPrint Auth</ion-title>
   </ion-navbar>
 
@@ -8,6 +11,7 @@
 
 
 <ion-content padding>
-  <button ion-button block item-left (click)="isAvaiable()"><ion-icon name="finger-print"></ion-icon> AUTH</button>
+  <button ion-button block item-left (click)="isAvaiable()">
+    <ion-icon name="finger-print"></ion-icon> AUTH</button>
   <p *ngIf="result">Result: {{authToken}}</p>
 </ion-content>
