@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>In App Browser</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item no-lines>
+    <ion-label>HTTP / HTTPS</ion-label>
+    <ion-select [(ngModel)]="http_type" multiple="false">
+      <ion-option *ngFor="let s of select_values" value="{{s.value}}">{{s.label}}</ion-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-label >Url</ion-label>
+    <ion-input type="url" [(ngModel)]="url"></ion-input>
+  </ion-item>
+  <br>
+  <button ion-button block (click)="openUrl()">Open</button>
+</ion-content>

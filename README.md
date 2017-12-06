@@ -11,7 +11,17 @@ ionic cordova run android --prod
 Enjoy ;)
 
 -Device Information
+
 -FingerPrint Auth
+
 -Geolocation
+
 -MediaStreaming
+
 -Barcode Scanner
+
+-PinDialog
+
+-ImagePicker
+
+-In App Browser

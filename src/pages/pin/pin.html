@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Pin Dialog</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button block (click)="showPinDialog()">Unlock with PIN</button>
+  <p *ngIf="pin" class="center">You typed {{pin}}</p>
+</ion-content>

@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button icon-only menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Image Picker</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button block (click)="getImages()">OPEN GALLERY</button>
+  <div id="div-images">
+    <img *ngFor="let i of images" src="{{i}}">
+  </div>
+</ion-content>
