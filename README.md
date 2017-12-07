@@ -10,18 +10,22 @@ ionic cordova run android --prod
 
 Enjoy ;)
 
--Device Information
+- [Device](https://ionicframework.com/docs/native/device "Device Page")
 
--FingerPrint Auth
+- [Android FingerPrint Auth](https://ionicframework.com/docs/native/android-fingerprint-auth "Android FingerPrint Auth")
 
--Geolocation
+- [Geolocation](https://ionicframework.com/docs/native/geolocation "Geolocation Page")
 
--MediaStreaming
+- [Streaming Media](https://ionicframework.com/docs/native/streaming-media "Streaming Media Page")
 
--Barcode Scanner
+- [Barcode Scanner](https://ionicframework.com/docs/native/zbar "Zbar Page")
 
--PinDialog
+- [PinDialog](https://ionicframework.com/docs/native/pin-dialog "Pin Dialog Page")
 
--ImagePicker
+- [ImagePicker](https://ionicframework.com/docs/native/image-picker "Image Picker Page")
 
--In App Browser
+- [In App Browser](https://ionicframework.com/docs/native/in-app-browser "In App Browser")
+
+
+
+[Send me an Email](mailto:otavioprimo@gmail.com)
